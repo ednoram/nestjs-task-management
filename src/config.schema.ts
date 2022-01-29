@@ -1,4 +1,4 @@
-import * as Joi from '@hapi/joi';
+import * as Joi from 'joi';
 
 export const configValidationSchema = Joi.object({
   DB_PORT: Joi.number().default(3000),
