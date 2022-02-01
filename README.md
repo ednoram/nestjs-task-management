@@ -27,7 +27,7 @@ npm install || yarn install
 
 > Run the app
 ```bash
-npm start dev || yarn start dev
+npm run start:dev || yarn start:dev
 ```
 
 ## Production
@@ -35,7 +35,7 @@ npm start dev || yarn start dev
 Build and start the app
 ```bash
 (npm run build && npm run start) ||
-(yarn run build && yarn run start)
+(yarn build && yarn start)
 ```
 
 ## Contact
