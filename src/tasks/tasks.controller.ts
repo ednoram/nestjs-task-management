@@ -21,7 +21,7 @@ import { User } from '../auth/user.entity';
 import { GetUser } from '../auth/get-user.decorator';
 
 @Controller('tasks')
-@UseGuards(AuthGuard())
+@UseGuards(AuthGuard('jwt'))
 export class TasksController {
   constructor(private tasksService: TasksService) {}
 
